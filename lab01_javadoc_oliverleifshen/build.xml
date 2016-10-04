@@ -49,7 +49,7 @@
     </junit>
   </target>
 
-  <property name="javadoc_absolute_path" location="javadoc"/>
+  <property name="public_javadoc_absolute_path" location="../lab01_javadoc_oliverleifshen/javadoc"/>
 
   <target name="javadoc" depends="compile" description="generate javadoc">
     <delete>
